@@ -15,6 +15,7 @@
 		C6BA0D711BBA7A51009584EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA0D6F1BBA7A51009584EF /* LaunchScreen.xib */; };
 		C6BA0D7D1BBA7A51009584EF /* ProjectAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA0D7C1BBA7A51009584EF /* ProjectAppTests.m */; };
 		C6BA0D8B1BBA7FD2009584EF /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA0D8A1BBA7FD2009584EF /* UIColor+Util.m */; };
+		C6C7B2B31BC4AB9800C3FD70 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7B2B21BC4AB9800C3FD70 /* NSDate+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C6BA0D7C1BBA7A51009584EF /* ProjectAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAppTests.m; sourceTree = "<group>"; };
 		C6BA0D891BBA7FD2009584EF /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		C6BA0D8A1BBA7FD2009584EF /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		C6C7B2B11BC4AB9800C3FD70 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		C6C7B2B21BC4AB9800C3FD70 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 			children = (
 				C6BA0D891BBA7FD2009584EF /* UIColor+Util.h */,
 				C6BA0D8A1BBA7FD2009584EF /* UIColor+Util.m */,
+				C6C7B2B11BC4AB9800C3FD70 /* NSDate+Util.h */,
+				C6C7B2B21BC4AB9800C3FD70 /* NSDate+Util.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				C6BA0D691BBA7A51009584EF /* ViewController.m in Sources */,
 				C6BA0D661BBA7A51009584EF /* AppDelegate.m in Sources */,
+				C6C7B2B31BC4AB9800C3FD70 /* NSDate+Util.m in Sources */,
 				C6BA0D631BBA7A51009584EF /* main.m in Sources */,
 				C6BA0D8B1BBA7FD2009584EF /* UIColor+Util.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				C6BA0D821BBA7A51009584EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6BA0D831BBA7A51009584EF /* Build configuration list for PBXNativeTarget "ProjectAppTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				C6BA0D851BBA7A51009584EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
